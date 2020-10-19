@@ -1,0 +1,4 @@
+2020-10-16 16.56.47 INFO VnCoreNLPServer - Using annotators: wseg
+2020-10-16 16.56.47 ERROR VnCoreNLPServer - File "9000" was not found.
+java.io.FileNotFoundException: File "9000" was not found.
+	at vncorenlp.VnCoreNLPServer.main(VnCoreNLPServer.java:173)

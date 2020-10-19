@@ -1,0 +1,707 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Xin chào",
+        "Chào bạn",
+        "Hôm nay bạn thế nào?",
+        "Có ai ở đây không?",
+        "Chào cậu",
+        "Một ngày tốt lành"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Chào bạn, cảm ơn đã ghé qua",
+        "Chào bạn, mình có thể làm gì cho bạn?",
+        "Chào bạn, mình có thể giúp gì cho bạn?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Hẹn gặp lại bạn",
+        "Goodbye",
+        "Chúc bạn may mắn",
+        "Tạm biệt",
+        "Bái bai"
+      ],
+      "responses": [
+        "Hẹn gặp lại bạn lần sau, cảm ơn bạn đã ghé qua",
+        "Chúc bạn một ngày tốt lành",
+        "Tạm biệt, hẹn gặp lại bạn"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Cảm ơn bạn",
+        "Nó thật là hữu ích",
+        "Cảm ơn rất nhiều"
+      ],
+      "responses": ["Rất hân hạnh được giúp", "Đó là hân hạnh của chúng tôi"]
+    },
+    {
+      "tag": "Ăn chay-khái niệm",
+      "patterns": [
+        "cho mình hỏi ăn chay là gì ?",
+        "Khải niệm của việc ăn chay?",
+        "Định nghĩa của ăn chay?"
+      ],
+      "responses": [
+        "Ăn chay (ăn lạt, trai giới) là một phương pháp ăn uống lành mạnh và cân bằng. Thực đơn thường ăn chính là rau củ, các loại hạt, trái cây…các sản phẩm có nguồn gốc từ thực vật và không ăn các thực phẩm có nguồn gốc từ động vật, các sản phẩm thu được từ quá trình giết mổ."
+      ]
+    },
+    {
+      "tag": "Ăn chay-Lợi ích",
+      "patterns": [
+        "Cho mình hỏi lợi ích của việc ăn chay?",
+        "Cho mình hỏi các lợi ích của việc ăn chay?",
+        "Cho mình hỏi những lợi ích của việc ăn chay?",
+        "Ăn chay có tác dụng gì?"
+      ],
+      "responses": [
+        "Ăn chay có khá là nhiều lợi ích, giảm nguy cơ béo phì, giảm nguy cơ mặc bệnh tim mạch, giảm nguy cơ mặc bệnh ung thư, ít rối loạn tiêu hóa, giúp tĩnh tâm và bảo vệ môi trường"
+      ]
+    },
+    {
+      "tag": "Ăn chay-Tác hại",
+      "patterns": [
+        "Cho mình hỏi tác hại của việc ăn chay?",
+        "Cho mình hỏi các tác hại của việc ăn chay?",
+        "Cho mình hỏi những tác hại của việc ăn chay?",
+        "Ăn chay có tác hại gì?",
+        "Ăn chay có tác hại không?"
+      ],
+      "responses": [
+        "Ăn chay thực chất không có tác hại, nhưng nếu ăn chay không đúng cách sẽ dẫn đến một số tác hại sau: gây thiếu máu, hoa mắt, chóng mặt, gây lão hóa sớm và mất trí nhớ"
+      ]
+    },
+    {
+      "tag": "Atkins - khái niệm",
+      "patterns": [
+        "Atkins là chế độ ăn như thế nào vậy?",
+        "mình muốn biết thêm về Atkins diet",
+        "Atkins là gì?",
+        "cho mình hỏi Atkins là gì thế?",
+        "Atkins là chế độ ăn thế nào?",
+        "Atkins có phải là một chế độ ăn kiêng không?",
+        "định nghĩa Atkins là gì?",
+        "khái niệm Atkins?",
+        "khái niệm của chế độ ăn Atkins?",
+        "thế nào là chế độ ăn Atkins?",
+        "định nghĩa về chế độ ăn Atkins?",
+        "chế độ ăn Atkins gồm những gì?"
+      ],
+      "responses": [
+        "Atkins - một chế độ ăn uống thường gặp tập trung vào giảm lượng carbohydrate trong khi ăn nhiều thức ăn giàu đạm"
+      ]
+    },
+    {
+      "tag": "Atkins - lợi ích",
+      "patterns": [
+        "ăn Atkins có tác dụng gì trong việc giảm cân?",
+        "ăn Atkins có lợi không?",
+        "ăn Atkins có phải là biện pháp giảm cân tốt không?",
+        "ăn Atkins giúp gì cho sức khoẻ?",
+        "lợi ích của Atkins diet?",
+        "các lợi ích của Atkins diet?",
+        "Atkins diet có ích lợi gì?",
+        "Atkins diet có các tác dụng gì?",
+        "cho mình hỏi ăn Atkins có tốt không?",
+        "cho mình hỏi ăn Atkins có tác dụng gì?",
+        "ăn Atkins có tác dụng gì?",
+        "ăn Atkins tốt cho sức khoẻ không?",
+        "ăn Atkins tốt không?",
+        "ăn Atkins tốt như thế nào?",
+        "Atkins giúp gì cho sức khoẻ?",
+        "Atkins có những lợi ích gì?",
+        "Atkins mang lại ích lợi gì?",
+        "Atkins có ích lợi gì không?"
+      ],
+      "responses": [
+        "Ăn Atkins có khá nhiều lợi ích như: Giảm đói hoặc thèm ăn (đặc biệt là đồ ngọt); Kiểm soát tốt hơn đối với insulin và đường huyết (glucose) tăng đột biến. Điều này có thể đặc biệt có lợi cho tiền tiểu đường hoặc bệnh nhân tiểu đường, mặc dù chế độ ăn kiêng low-carb là cách duy nhất để giảm các yếu tố nguy cơ mắc bệnh tiểu đường; Tăng cường hiệu suất nhận thức, bao gồm ít hơn sương mù não hoặc giảm năng lượng; Trong một số trường hợp, nguy cơ mắc các bệnh tim mạch thấp hơn; Có khả năng giảm nguy cơ mắc một số loại ung thư"
+      ]
+    },
+    {
+      "tag": "Atkins - tác hại",
+      "patterns": [
+        "Atkins có tác dụng phụ bất lợi gì không?",
+        "ăn Atkins có ảnh hưởng tiêu cực gì đến sức khoẻ không?",
+        "ăn Atkins có hại gì không?",
+        "ăn Atkins có tác hại gì?",
+        "ăn Atkins có tác hại không?",
+        "cho mình hỏi tác hại của việc ăn Atkins?",
+        "cho mình hỏi các tác hại của việc ăn theo Atkins?",
+        "cho mình hỏi những tác hại của việc ăn Atkins?",
+        "ăn Atkins ảnh hưởng xấu đến sức khoẻ không?",
+        "ăn Atkins có làm giảm sức khoẻ không?"
+      ],
+      "responses": [
+        "Ăn theo chế độ Atkins cần lưu ý những tác hại sau đây: Thiếu hụt dưỡng chất (do chỉ tập trung ăn đạm là chủ yếu); Mất nước; Tăng nguy cơ gout; Tăng cholesterol"
+      ]
+    },
+    {
+      "tag": "BMI calculation",
+      "patterns": [
+        "Công thức BMI là gì",
+        "công thức BMI",
+        "cách tính BMI",
+        "BMI tính như thế nào"
+      ],
+      "responses": [
+        "Chỉ số khối cơ thể được tính theo công thức: BMI = Cân nặng/ [(Chiều cao)^2], Trong đó BMI đơn vị thường dùng là kg/m^2, cân nặng tính theo kg và chiều cao tính theo m",
+        "BMI = (trọng lượng cơ thể ) / (chiều cao x chiều cao). Trong đó trọng lượng cơ thể (Cân nặng) được tính bằng kg và chiều cao được tính bằng m."
+      ]
+    },
+    {
+      "tag": "BMI định nghĩa",
+      "patterns": [
+        "BMI là gì",
+        "định nghĩa BMI",
+        "khái niệm BMI",
+        "BMI viết tắt của gì"
+      ],
+      "responses": [
+        "BMI (Body Mass Index) được gọi là chỉ số khối cơ thể, dựa vào cân nặng, chiều cao để xác định một, người có bị thừa cân, béo phì, suy dinh dưỡng hay không.",
+        "Chỉ số BMI (Body Mass Index) hay còn gọi là chỉ số khối cơ thể, chỉ số thể trọng, là một công cụ thường được sử dụng để đo lượng mỡ trong cơ thể. Chỉ số BMI chuẩn được tính dựa trên chiều cao và cân nặng, áp dụng cho nam và nữ trưởng thành."
+      ]
+    },
+    {
+      "tag": "BMI thang tính",
+      "patterns": [
+        "BMI đẹp là bao nhiêu",
+        "BMI tiêu chuẩn là bao nhiêu",
+        "BMI bao nhiêu là thừa cân",
+        "BMI bao nhiêu là thiếu cân",
+        "BMI được đánh giá như thế nào",
+        "Thang điểm của BMI là gì"
+      ],
+      "responses": [
+        "https://login.medlatec.vn//ImagePath/images/20200705/20200705_bmi.png",
+        "Với người Việt Nam, chỉ số BMI lý tưởng là từ 18,5 - 22,9. Nếu chỉ BMI dưới 18.5 thì đây là dấu hiệu bạn bị thiếu cân, lớn hơn 23 được coi là thừa cân"
+      ]
+    },
+    {
+      "tag": "Các đơn vị đo Calories",
+      "patterns": [
+        "Có bao nhiêu đơn vị đo Calories?",
+        "Kcal có bao nhiêu đơn vị đo thế?",
+        "Kalo có đơn vị đo của nó là gì bạn?",
+        "Các đơn vị đo của Calories là gì?"
+      ],
+      "responses": [
+        "Đơn vị phổ biến là 2 đơn vị cal, kcal (1 kcal = 1000 cal). Do nó cũng là đơn vị đo năng lượng nên ta có nhiều cách để quy đổi sang J, giá trị trung bình là 1 cal = 4,1900 J."
+      ]
+    },
+    {
+      "tag": "Cách đổi Carb, protein,fat thành calories",
+      "patterns": [
+        "Crab, protein, fat có bao nhiêu calo?",
+        "Lượng kalo của crab, chất đạm, chất béo là bao nhiêu vậy?",
+        "Lượng calo của crab, protein, chất béo bao nhiêu thế bạn?",
+        "Quy đổi carb, chất béo, chất đạm ra calo như thế nào nhỉ?",
+        "Đổi crab, chất đạm, fat ra calo?"
+      ],
+      "responses": [
+        "1g carbs = 4 calo, 1g protein = 4 calo, 1g fat = 9 calo nha bạn!"
+      ]
+    },
+    {
+      "tag": "Calories công thức",
+      "patterns": [
+        "Công thức calo là gì?",
+        "Công thức tính calories là gì vậy?",
+        "Tính kcal như thế nào?",
+        "Kalo được tính như thế nào hả bạn?"
+      ],
+      "responses": [
+        "Trong thực phẩm Calo là kết hợp của 3 khối lượng: chất béo, carbohydrate, và Protein. Trong phòng thí nghiệm, khi đo lường năng lượng được đốt cháy, người ta xác định rằng: 1g carbohydrate giải phóng 4 calo (kcal), 1g protein giải phóng 4 calo (kcal), 1g chất béo giải phóng 9 calo (kcal). Nhờ vậy, khi biết trong thực phẩm có chứa hàm lượng protein, chất béo và carbohydrate bạn đã tính được thực phẩm đó có bao nhiêu calo rồi đấy."
+      ]
+    },
+    {
+      "tag": "Calories khái niệm",
+      "patterns": [
+        "Calo là gì?",
+        "Calories là gì thể nhỉ?",
+        "Kalo là chỉ số gì hả bạn?",
+        "Kcal là cái gì thế?"
+      ],
+      "responses": [
+        "Calo là 1 đơn vị đo năng lượng. Bạn sử dụng lượng calo trong đồ ăn, thức uống nạp vào để thực hiện các chức năng thiết yếu của cơ thể như hít thở, đi đứng, vận động, nói chuyện, ăn uống, suy nghĩ..."
+      ]
+    },
+    {
+      "tag": "eat clean - khái niệm",
+      "patterns": [
+        "eat clean là chế độ ăn như thế nào vậy?",
+        "mình muốn biết thêm về eat clean diet",
+        "eat clean là gì?",
+        "cho mình hỏi eat clean là gì thế?",
+        "eat clean là chế độ ăn thế nào?",
+        "eat clean có phải là một chế độ ăn kiêng không?",
+        "định nghĩa eat clean là gì?",
+        "khái niệm eat clean?",
+        "khái niệm của chế độ ăn eat clean?",
+        "thế nào là chế độ ăn eat clean?",
+        "định nghĩa về chế độ ăn eat clean?",
+        "chế độ ăn eat clean gồm những gì?"
+      ],
+      "responses": [
+        "Eat Clean (ăn sạch) là chế độ ăn tránh xa các thực phẩm đóng gói và sử dụng thực phẩm ở “gần với hình thức nguyên thủy của chúng nhất”. Điều này không có nghĩa là tất cả thực phẩm cần phải được ăn sống."
+      ]
+    },
+    {
+      "tag": "eat clean - lợi ích",
+      "patterns": [
+        "ăn eat clean có tác dụng gì trong việc giảm cân?",
+        "ăn eat clean có lợi không?",
+        "ăn eat clean có phải là biện pháp giảm cân tốt không?",
+        "ăn eat clean giúp gì cho sức khoẻ?",
+        "lợi ích của eat clean diet?",
+        "các lợi ích của eat clean diet?",
+        "eat clean diet có ích lợi gì?",
+        "eat clean diet có các tác dụng gì?",
+        "cho mình hỏi ăn eat clean có tốt không?",
+        "cho mình hỏi ăn eat clean có tác dụng gì?",
+        "ăn eat clean có tác dụng gì?",
+        "ăn eat clean tốt cho sức khoẻ không?",
+        "ăn eat clean tốt không?",
+        "ăn eat clean tốt như thế nào?",
+        "eat clean giúp gì cho sức khoẻ?",
+        "eat clean có những lợi ích gì?",
+        "eat clean mang lại ích lợi gì?",
+        "eat clean có ích lợi gì không?"
+      ],
+      "responses": [
+        "Lợi ích của eat clean bao gồm: ngăn ngừa bệnh tim mạch, cải thiện sức khỏe não bộ, giảm cân lành mạnh, cung cấp năng lượng cho cơ thể, giảm bớt nguy cơ mắc ung thư."
+      ]
+    },
+    {
+      "tag": "eat clean - tác hại",
+      "patterns": [
+        "eat clean có tác dụng phụ bất lợi gì không?",
+        "ăn eat clean có ảnh hưởng tiêu cực gì đến sức khoẻ không?",
+        "ăn eat clean có hại gì không?",
+        "ăn eat clean có tác hại gì?",
+        "ăn eat clean có tác hại không?",
+        "cho mình hỏi tác hại của việc ăn eat clean?",
+        "cho mình hỏi các tác hại của việc ăn theo eat clean?",
+        "cho mình hỏi những tác hại của việc ăn eat clean?",
+        "ăn eat clean ảnh hưởng xấu đến sức khoẻ không?",
+        "ăn eat clean có làm giảm sức khoẻ không?"
+      ],
+      "responses": [
+        "Người ăn theo chế độ eat clean có thể gặp phải một số tác hại như rối loạn tiêu hoá, đầy bụng, đầy hơi, mất nước, trào ngược dạ dày."
+      ]
+    },
+    {
+      "tag": "HCG - khái niệm",
+      "patterns": [
+        "HCG là chế độ ăn như thế nào vậy?",
+        "mình muốn biết thêm về HCG diet",
+        "HCG là gì?",
+        "cho mình hỏi HCG là gì thế?",
+        "HCG là chế độ ăn thế nào?",
+        "HCG có phải là một chế độ ăn kiêng không?",
+        "định nghĩa HCG là gì?",
+        "khái niệm HCG?",
+        "khái niệm của chế độ ăn HCG?",
+        "thế nào là chế độ ăn HCG?",
+        "định nghĩa về chế độ ăn HCG?",
+        "chế độ ăn HCG gồm những gì?"
+      ],
+      "responses": [
+        "HCG, viết tắt của hoóc-môn màng đệm ở người (human chorionic gonadotropin), là một hoóc-môn có ở mức cao trong giai đoạn đầu của thai kỳ. Một bác sĩ người Anh tên là Albert Simeons đã đề xuất dùng HCG như một công cụ giảm cân vào năm 1954. Chế độ ăn kiêng của ông gồm có hai thành phần chính: Chế độ ăn kiêng với lượng calo cực kỳ thấp với khoảng 500 calo mỗi ngày và Cung cấp hoóc-môn HCG bằng cách tiêm vào cơ thể."
+      ]
+    },
+    {
+      "tag": "HCG - lợi ích",
+      "patterns": [
+        "ăn HCG có tác dụng gì trong việc giảm cân?",
+        "ăn HCG có lợi không?",
+        "ăn HCG có phải là biện pháp giảm cân tốt không?",
+        "ăn HCG giúp gì cho sức khoẻ?",
+        "lợi ích của HCG diet?",
+        "các lợi ích của HCG diet?",
+        "HCG diet có ích lợi gì?",
+        "HCG diet có các tác dụng gì?",
+        "cho mình hỏi ăn HCG có tốt không?",
+        "cho mình hỏi ăn HCG có tác dụng gì?",
+        "ăn HCG có tác dụng gì?",
+        "ăn HCG tốt cho sức khoẻ không?",
+        "ăn HCG tốt không?",
+        "ăn HCG tốt như thế nào?",
+        "HCG giúp gì cho sức khoẻ?",
+        "HCG có những lợi ích gì?",
+        "HCG mang lại ích lợi gì?",
+        "HCG có ích lợi gì không?"
+      ],
+      "responses": ["Lợi ích chính của chế độ này là giảm cân nhanh."]
+    },
+    {
+      "tag": "HCG - tác hại",
+      "patterns": [
+        "HCG có tác dụng phụ bất lợi gì không?",
+        "ăn HCG có ảnh hưởng tiêu cực gì đến sức khoẻ không?",
+        "ăn HCG có hại gì không?",
+        "ăn HCG có tác hại gì?",
+        "ăn HCG có tác hại không?",
+        "cho mình hỏi tác hại của việc ăn HCG?",
+        "cho mình hỏi các tác hại của việc ăn theo HCG?",
+        "cho mình hỏi những tác hại của việc ăn HCG?",
+        "ăn HCG ảnh hưởng xấu đến sức khoẻ không?",
+        "ăn HCG có làm giảm sức khoẻ không?"
+      ],
+      "responses": [
+        "Chế độ này có nhiều tác hại như gây nhức đầu, mệt mỏi, trầm cảm."
+      ]
+    },
+    {
+      "tag": "keto - chất béo",
+      "patterns": [
+        "giảm tinh bột ăn chất béo như vậy có tốt không?",
+        "Sao lại duy trì chất béo vậy nhỉ?"
+      ],
+      "responses": [
+        "Dạ thưa bạn, khi bạn đang trong chế độ này, nó sẽ đốt chất béo tạo thành năng lượng, đồng thời nó cũng chuyển chất béo trong gan thành xeton cung cấp năng lượng cho não.",
+        "“Tốt chứ bạn, khi bạn trong chế độ chất béo sẽ bị đốt tạo thành năng lượng cho cơ thể, chất béo trong gan cũng tạo thành các xeton cung cấp năng lượng cho não."
+      ]
+    },
+    {
+      "tag": "keto - Khái niệm",
+      "patterns": [
+        "Keto là gì ?",
+        "Định nghĩa của Keto là gì ?",
+        "keto viết tắt là gì ?"
+      ],
+      "responses": [
+        "Chào bạn bạn có thể hiểu, chế độ ăn keto là chế độ ăn giàu chất béo, đủ protein, ít carbohydrate trong y học được sử dụng chủ yếu để điều trị chứng động kinh khó chữa",
+        "Chế độ ăn Keto (Ketogenic) là chế độ ăn ít carbohydrate (carb) và nhiều chất béo tốt. Thực đơn Keto giúp cơ thể đốt cháy năng lượng nhiều hơn mà không cần phải kiêng khem nghiêm ngặt."
+      ]
+    },
+    {
+      "tag": "keto - lợi ích",
+      "patterns": [
+        "Lợi ích của keto là gì?",
+        "cho mình hỏi lợi ích của keto là gì"
+      ],
+      "responses": [
+        "Dạ thưa bạn, đầu tiền keto sẽ giúp để giảm cân, giảm mụn chứng cá, giảm thiểu rủi ro của bệnh ung thư, giúp cải thiện tim mạch, bảo vệ chức năng bộ não và giảm tính co giật",
+        "Tốt chứ bạn! Khi bạn trong chế độ chất béo sẽ bị đốt tạo thành năng lượng cho cơ thể, chất béo trong gan cũng tạo thành các xeton cung cấp năng lượng cho não."
+      ]
+    },
+    {
+      "tag": "keto - tác hại",
+      "patterns": ["Tác hại của keto là gì?", "Cho mình hỏi tác hại của keto?"],
+      "responses": [
+        "Theo các bác sĩ dinh dưỡng, ăn uống theo chế độ keto tuy giải quyết được việc giảm bớt năng lượng đưa vào cơ thể, có thể giảm cân nhanh chóng tuy nhiên đây là cách giảm cân không bền vững và có thể gây hại cho sức khỏe. Chế độ ăn với quá nhiều chất béo và hạn chế tối đa tinh bột làm ảnh hưởng rất lớn đến quá trình chuyển hóa, làm giảm đi năng lượng hoạt động của não bộ, ngoài ra còn khiến cơ thể gặp các vấn đề như táo bón, tiêu chảy…"
+      ]
+    },
+    {
+      "tag": "keto - viêt tắt",
+      "patterns": ["Keto viết tắt là gì?", "Từ keto là gì vậy?"],
+      "responses": [
+        "Keto là cụm từ viết tắt của “Keep Eating The fat Off” - Hãy tiếp tục ăn chất béo. Nói một cách dễ hiểu, chế độ ăn KETO chính là chế độ ăn nhiều chất béo tốt có lợi cho cơ thể và hạn chế lượng carbohydrate",
+        "“Keep Eating The fat Off” - Hãy tiếp tục ăn chất béo"
+      ]
+    },
+    {
+      "tag": "Low carb - khái niệm",
+      "patterns": [
+        "Low carb là gì ?",
+        "Khải niệm của việc ăn Low carb?",
+        "Định nghĩa của Low carb?",
+        "Lowcarb là gì ?",
+        "Khải niệm của việc ăn Lowcarb?",
+        "Định nghĩa của Lowcarb?"
+      ],
+      "responses": [
+        "Low-carb hay Low-carbohydrate nghĩa là ít đường, ít tinh bột. Chế độ ăn Low Carb là chế độ ăn kiêng nhằm giới hạn lượng carbohydrate và tăng tỉ lệ protein cũng như chất béo trong khẩu phần (carbohydrate có trong các thức ăn như ngũ cốc, rau và hoa quả)"
+      ]
+    },
+    {
+      "tag": "Low carb - lợi ích",
+      "patterns": [
+        "Lợi ích của low carb là gì ?",
+        "Lợi ích của lowcarb là gì ?",
+        "Chế độ ăn low carb có tác dụng gì ?",
+        "Ăn low carb có tốt không",
+        "Ăn low carb có tốt cho sức khỏe không?"
+      ],
+      "responses": [
+        "Ăn low carb có khá là nhiều lợi ích: Giúp giảm cân nhanh, Giảm nguy cơ mắc hội chứng chuyển hóa và bệnh tim, Nguy cơ mắc bệnh tiểu đường loại 2 thấp hơn, Giúp chống ung thư, Tăng cảm giác no, Giúp tiêu hóa tốt hơn"
+      ]
+    },
+    {
+      "tag": "Low carb - tác hại",
+      "patterns": [
+        "Tác hại của việc ăn low carb ?",
+        "Chế độ ăn low carb có tác hại gì?",
+        "Những tác hại của việc ăn low carb?",
+        "Ăn low carb có tác hại không"
+      ],
+      "responses": [
+        "Việc ăn low carb cũng sẽ có những tác hại cụ thể, Khi lượng tinh bột của bạn bị cắt giảm một cách quá đột ngột thì cơ thể sẽ gặp phải tình trạng như đau đầu, khó thở, yếu cơ, mệt mỏi, táo bón hoặc tiêu chảy,…"
+      ]
+    },
+    {
+      "tag": "low-fat - lợi ích",
+      "patterns": [
+        "ăn low-fat có tác dụng gì trong việc giảm cân?",
+        "ăn low-fat có lợi không?",
+        "ăn low-fat có phải là biện pháp giảm cân tốt không?",
+        "ăn low-fat giúp gì cho sức khoẻ?",
+        "lợi ích của low-fat diet?",
+        "các lợi ích của low-fat diet?",
+        "low-fat diet có ích lợi gì?",
+        "low-fat diet có các tác dụng gì?",
+        "cho mình hỏi ăn low-fat có tốt không?",
+        "cho mình hỏi ăn low-fat có tác dụng gì?",
+        "ăn low-fat có tác dụng gì?",
+        "ăn low-fat tốt cho sức khoẻ không?",
+        "ăn low-fat tốt không?",
+        "ăn low-fat tốt như thế nào?",
+        "low-fat giúp gì cho sức khoẻ?",
+        "low-fat có những lợi ích gì?",
+        "low-fat mang lại ích lợi gì?",
+        "low-fat có ích lợi gì không?"
+      ],
+      "responses": [
+        "Lợi ích của chế độ low-fat bao gồm: Không gây quá nhiều tác dụng phụ và được khuyên áp dụng cho các bệnh nhân béo phì; Thực đơn lành mạnh với nhiều chất xơ và năng lượng; Hạn chế các bệnh về tim mạch, mỡ máu"
+      ]
+    },
+    {
+      "tag": "low-fat - tác hại",
+      "patterns": [
+        "low-fat có tác dụng phụ bất lợi gì không?",
+        "ăn low-fat có ảnh hưởng tiêu cực gì đến sức khoẻ không?",
+        "ăn low-fat có hại gì không?",
+        "ăn low-fat có tác hại gì?",
+        "ăn low-fat có tác hại không?",
+        "cho mình hỏi tác hại của việc ăn low-fat?",
+        "cho mình hỏi các tác hại của việc ăn theo low-fat?",
+        "cho mình hỏi những tác hại của việc ăn low-fat?",
+        "ăn low-fat ảnh hưởng xấu đến sức khoẻ không?",
+        "ăn low-fat có làm giảm sức khoẻ không?"
+      ],
+      "responses": [
+        "Chế độ ăn low-fat có một số tác hại sau cần lưu ý: Chế độ low - fat không khuyến khích tiêu thụ các thực phẩm lành mạnh (quả bơ, cá hồi); Làm giảm choresterol tốt HDL; Giảm hormone nội tiết tố Nam (Testosterone); Gây hại cho các Cholesterol xấu LDL; Mất cân bằng dinh dưỡng cho người ăn"
+      ]
+    },
+    {
+      "tag": "low-fat khái niệm",
+      "patterns": [
+        "low-fat là chế độ ăn như thế nào vậy?",
+        "mình muốn biết thêm về low-fat diet",
+        "low-fat là gì?",
+        "cho mình hỏi low-fat là gì thế?",
+        "low-fat là chế độ ăn thế nào?",
+        "low-fat có phải là một chế độ ăn kiêng không?",
+        "định nghĩa low fat là gì?",
+        "khái niệm low-fat?",
+        "khái niệm của chế độ ăn low-fat?",
+        "thế nào là chế độ ăn low-fat?",
+        "định nghĩa về chế độ ăn low-fat?",
+        "chế độ ăn low-fat gồm những gì?"
+      ],
+      "responses": [
+        "Low-fat là chế độ ăn kiêng giảm cân bằng cách cắt năng lượng calo cần cho cơ thể mỗi ngày để ép cơ thể sử dụng năng lượng tích trỡ (mỡ)."
+      ]
+    },
+    {
+      "tag": "nhịn ăn gián đoạn - khái niệm",
+      "patterns": [
+        "nhịn ăn gián đoạn là chế độ ăn như thế nào vậy?",
+        "mình muốn biết thêm về nhịn ăn gián đoạn?",
+        "nhịn ăn gián đoạn là gì?",
+        "cho mình hỏi nhịn ăn gián đoạn là gì thế?",
+        "nhịn ăn gián đoạn là chế độ ăn thế nào?",
+        "nhịn ăn gián đoạn có phải là một chế độ ăn kiêng không?",
+        "định nghĩa nhịn ăn gián đoạn là gì?",
+        "khái niệm nhịn ăn gián đoạn?",
+        "khái niệm của chế độ nhịn ăn gián đoạn?",
+        "thế nào là chế độ nhịn ăn gián đoạn?",
+        "định nghĩa về chế độ nhịn ăn gián đoạn?",
+        "chế độ nhịn ăn gián đoạn gồm những gì?"
+      ],
+      "responses": [
+        "Nhịn ăn ngắt đoạn (IF) là một mô hình ăn uống có chu kỳ giữa thời gian nhịn ăn và ăn."
+      ]
+    },
+    {
+      "tag": "nhịn ăn gián đoạn - lợi ích",
+      "patterns": [
+        "nhịn ăn gián đoạn có tác dụng gì trong việc giảm cân?",
+        "nhịn ăn gián đoạn có lợi không?",
+        "nhịn ăn gián đoạn có phải là biện pháp giảm cân tốt không?",
+        "nhịn ăn gián đoạn giúp gì cho sức khoẻ?",
+        "lợi ích của việc nhịn ăn gián đoạn?",
+        "các lợi ích của nhịn ăn gián đoạn?",
+        "nhịn ăn gián đoạn có ích lợi gì?",
+        "nhịn ăn gián đoạn có các tác dụng gì?",
+        "cho mình hỏi nhịn ăn gián đoạn có tốt không?",
+        "cho mình hỏi nhịn ăn gián đoạn có tác dụng gì?",
+        "nhịn ăn gián đoạn có tác dụng gì?",
+        "nhịn ăn gián đoạn tốt cho sức khoẻ không?",
+        "nhịn ăn gián đoạn tốt không?",
+        "nhịn ăn gián đoạn tốt như thế nào?",
+        "nhịn ăn gián đoạn giúp gì cho sức khoẻ?",
+        "nhịn ăn gián đoạn có những lợi ích gì?",
+        "nhịn ăn gián đoạn mang lại ích lợi gì?",
+        "nhịn ăn gián đoạn có ích lợi gì không?"
+      ],
+      "responses": [
+        "Nhịn ăn gián đoạn có nhiều ích lợi như: Đốt cháy được nhiều chất béo, Tăng độ nhạy cảm insulin, làm bạn thoải mái hơn, Cải thiện thói quen ăn uống của bạn, Cải thiện chức năng não, Cải thiện miễn dịch."
+      ]
+    },
+    {
+      "tag": "nhịn ăn gián đoạn - tác hại",
+      "patterns": [
+        "nhịn ăn gián đoạn có tác dụng phụ bất lợi gì không?",
+        "nhịn ăn gián đoạn có ảnh hưởng tiêu cực gì đến sức khoẻ không?",
+        "nhịn ăn gián đoạn có hại gì không?",
+        "nhịn ăn gián đoạn có tác hại gì?",
+        "nhịn ăn gián đoạns có tác hại không?",
+        "cho mình hỏi tác hại của việc nhịn ăn gián đoạn?",
+        "cho mình hỏi các tác hại của việc nhịn ăn gián đoạn?",
+        "cho mình hỏi những tác hại của việc nhịn ăn gián đoạn?",
+        "nhịn ăn gián đoạn ảnh hưởng xấu đến sức khoẻ không?",
+        "nhịn ăn gián đoạn có làm giảm sức khoẻ không?"
+      ],
+      "responses": [
+        "Ăn theo chế độ nhịn ăn gián đoạn có thể gặp phải tác hại như đói hoặc hạ đường huyết."
+      ]
+    },
+    {
+      "tag": "Paleo - khái niệm",
+      "patterns": [
+        "Paleo là chế độ ăn như thế nào vậy?",
+        "mình muốn biết thêm về Paleo diet",
+        "Paleo là gì?",
+        "cho mình hỏi Paleo là gì thế?",
+        "Paleo là chế độ ăn thế nào?",
+        "Paleo có phải là một chế độ ăn kiêng không?",
+        "định nghĩa Paleo là gì?",
+        "khái niệm Paleo?",
+        "khái niệm của chế độ ăn Paleo?",
+        "thế nào là chế độ ăn Paleo?",
+        "định nghĩa về chế độ ăn Paleo?",
+        "chế độ ăn Paleo gồm những gì?"
+      ],
+      "responses": [
+        "Paleo là cách gọi tắt cho Paleolithic – tiền sử. Đây là chế độ ăn với các thực phẩm được sử dụng như thời tiền sử. Đa số những đồ ăn ông cha ta có được đều thông qua hình thức săn bắn, hái lượm. Bao gồm cá, thịt, trái cây, rau quả,… Thành phần chính trong loại thực phẩm này là protein, chất xơ và các loại vitamin."
+      ]
+    },
+    {
+      "tag": "Paleo - lợi ích",
+      "patterns": [
+        "ăn Paleo có tác dụng gì trong việc giảm cân?",
+        "ăn Paleo có lợi không?",
+        "ăn Paleo có phải là biện pháp giảm cân tốt không?",
+        "ăn Paleo giúp gì cho sức khoẻ?",
+        "lợi ích của Paleo diet?",
+        "các lợi ích của Paleo diet?",
+        "Paleo diet có ích lợi gì?",
+        "Paleo diet có các tác dụng gì?",
+        "cho mình hỏi ăn Paleo có tốt không?",
+        "cho mình hỏi ăn Paleo có tác dụng gì?",
+        "ăn Paleo có tác dụng gì?",
+        "ăn Paleo tốt cho sức khoẻ không?",
+        "ăn Paleo tốt không?",
+        "ăn Paleo tốt như thế nào?",
+        "Paleo giúp gì cho sức khoẻ?",
+        "Paleo có những lợi ích gì?",
+        "Paleo mang lại ích lợi gì?",
+        "Paleo có ích lợi gì không?"
+      ],
+      "responses": [
+        "Lợi ích chính của chế độ này là giúp giảm cân hiệu quả, bảo đảm sức khỏe, và giúp hạn chế lượng đường, tinh bột nạp vào cơ thể."
+      ]
+    },
+    {
+      "tag": "Paleo - tác hại",
+      "patterns": [
+        "Paleo có tác dụng phụ bất lợi gì không?",
+        "ăn Paleo có ảnh hưởng tiêu cực gì đến sức khoẻ không?",
+        "ăn Paleo có hại gì không?",
+        "ăn Paleo có tác hại gì?",
+        "ăn Paleo có tác hại không?",
+        "cho mình hỏi tác hại của việc ăn Paleo?",
+        "cho mình hỏi các tác hại của việc ăn theo Paleo?",
+        "cho mình hỏi những tác hại của việc ăn Paleo?",
+        "ăn Paleo ảnh hưởng xấu đến sức khoẻ không?",
+        "ăn Paleo có làm giảm sức khoẻ không?"
+      ],
+      "responses": [
+        "Người ăn theo chế độ này có thể gặp phải một số tác hại như mệt mỏi khó chịu trong thời gian đầu theo chế độ và có thể gây tốn thời gian khi thực hiện chế độ."
+      ]
+    },
+    {
+      "tag": "The zone - khái niệm",
+      "patterns": [
+        "The zone là chế độ ăn như thế nào vậy?",
+        "mình muốn biết thêm về The zone diet",
+        "The zone là gì?",
+        "cho mình hỏi The zone là gì thế?",
+        "The zone là chế độ ăn thế nào?",
+        "The zone có phải là một chế độ ăn kiêng không?",
+        "định nghĩa The zone là gì?",
+        "khái niệm The zone?",
+        "khái niệm của chế độ ăn The zone?",
+        "thế nào là chế độ ăn The zone?",
+        "định nghĩa về chế độ ăn The zone?",
+        "chế độ ăn The zone gồm những gì?"
+      ],
+      "responses": [
+        "The zone diet là chế độ ăn kiêng hướng dẫn những người thực hiện áp dụng một chế độ ăn uống với tỷ lệ cụ thể là 40% carbs, 30% protein và 30% chất béo."
+      ]
+    },
+    {
+      "tag": "The zone - lợi ích",
+      "patterns": [
+        "ăn The zone có tác dụng gì trong việc giảm cân?",
+        "ăn The zone có lợi không?",
+        "ăn The zone có phải là biện pháp giảm cân tốt không?",
+        "ăn The zone giúp gì cho sức khoẻ?",
+        "lợi ích của The zone diet?",
+        "các lợi ích của The zone diet?",
+        "The zone diet có ích lợi gì?",
+        "The zone diet có các tác dụng gì?",
+        "cho mình hỏi ăn The zone có tốt không?",
+        "cho mình hỏi ăn The zone có tác dụng gì?",
+        "ăn The zone có tác dụng gì?",
+        "ăn The zone tốt cho sức khoẻ không?",
+        "ăn The zone tốt không?",
+        "ăn The zone tốt như thế nào?",
+        "The zone giúp gì cho sức khoẻ?",
+        "The zone có những lợi ích gì?",
+        "The zone mang lại ích lợi gì?",
+        "The zone có ích lợi gì không?"
+      ],
+      "responses": [
+        "Lợi ích của chế độ này là giúp tạo cảm giác no lâu và giúp ăn uống lành mạnh đúng giờ."
+      ]
+    },
+    {
+      "tag": "The zone - tác hại",
+      "patterns": [
+        "The zone có tác dụng phụ bất lợi gì không?",
+        "ăn The zone có ảnh hưởng tiêu cực gì đến sức khoẻ không?",
+        "ăn The zone có hại gì không?",
+        "ăn The zone có tác hại gì?",
+        "ăn The zone có tác hại không?",
+        "cho mình hỏi tác hại của việc ăn The zone?",
+        "cho mình hỏi các tác hại của việc ăn theo The zone?",
+        "cho mình hỏi những tác hại của việc ăn The zone?",
+        "ăn The zone ảnh hưởng xấu đến sức khoẻ không?",
+        "ăn The zone có làm giảm sức khoẻ không?"
+      ],
+      "responses": [
+        "Tác dụng phụ của chế độ này là đôi khi người ăn theo chế độ sẽ gặp triệu chứng viêm."
+      ]
+    }
+  ]
+}
